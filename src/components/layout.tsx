@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
        <Header menuHtmlId="page-header-menu" className=''></Header>
-      <main>{children}</main>
+      <main className='bg-light min-vh-100'>{children}</main>
       <Footer />
     </>
   )
